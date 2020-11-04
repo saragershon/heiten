@@ -1,6 +1,6 @@
 /*variables */
 :root {
---background-color: #fff;
+--background-color: #9FC3CC;
 --body-color: #457B87;
 }
 
@@ -8,16 +8,22 @@ body {
 	background-color: var(--background-color);
 	color: var(--body-color);
 	font-family: din-2014, sans-serif;
-  font-weight: 400;
+  font-weight: 200;
   font-style: normal;
 }
 
 /*general css*/
 
-h2, h3, h4 {
+h3{
 	margin: 0;
 	font-family: din-2014, sans-serif;
-	font-weight: 400;
+	font-weight: 200;
+}
+
+h4 {
+  margin: 0;
+  font-family: din-2014, sans-serif;
+  font-weight: 300;
 }
 
 h1 {
@@ -88,7 +94,7 @@ p {
 /*NAV section*/
 
 #nav a { 
-  color: var(--body-color);
+  color: #2C5056;
   font-weight: 300; 
   letter-spacing: 2px; 
   text-decoration-color: transparent; 
@@ -289,8 +295,8 @@ p {
 
 .writing-item .caption {
   font-size: .75rem;
-  font-weight: 100;
-  color: #666666;
+  font-weight: 500;
+  color: #2C5056;
   display: block;
   width: 100%;
   margin-top: .5rem;
@@ -302,15 +308,29 @@ p {
   margin: 0;
   font-size: .85rem;
   padding: 0 4px;
-  color: var(--background-color);
+  color: #9FC3CC;
   display: inline-block;
   background-color: var(--body-color);
 }
 
-.writing-item h2 a, h3 a, h4 a {
+.writing-item h2 a {
+  color: #2C5056;
+  text-decoration-color: transparent; 
+  transition: text-decoration-color .3s ease-in-out;
+  font-weight: 600;
+}
+
+.writing-item h4 a {
   color: var(--body-color);
   text-decoration-color: transparent; 
   transition: text-decoration-color .3s ease-in-out;
+}
+
+.writing-item h3 a {
+  color: var(--body-color);
+  text-decoration-color: transparent;
+  transition: text-decoration-color .3s ease-in-out;
+  font-weight: 400;
 }
 
 .writing-item h2 a:hover {
@@ -355,6 +375,7 @@ p {
 #footer {
   text-align: right;
   font-size: .85rem;
+  color: #E33F40;
 }
 
 /*responsive features*/
@@ -400,5 +421,5 @@ p {
 }
 
 body {
-  font-size: 18px;
+  font-size: 16px;
 }
