@@ -212,6 +212,15 @@ p {
 #intro {
   display: flex;
   align-items: center;
+  height: 60vh;
+  color: var(--background-color);
+  background-color: var(--body-color);
+}
+
+#intro-holder {
+  text-align: center;
+  width: 100%;
+  
 }
 
 #work h3, #work h1, #writings h3, #portfolio h3, #resume h3, #contact h3 #work-holder{
@@ -369,7 +378,6 @@ p {
 }
 
 
-
 /*footer*/
 
 #footer {
@@ -411,12 +419,8 @@ p {
 
 @media all and (min-width: 699px) {
 
-  #intro {
-    height: 10vh;
-  }
-
   #intro-holder {
-    padding: 0 19em;
+    padding: 0;
   }
 }
 
