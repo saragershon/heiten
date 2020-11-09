@@ -287,7 +287,7 @@ p {
 
 .portfolio-holder .caption {
   font-size: .75rem;
-  color: #666666
+  color: #8FD2CE;
   text-align: right;
 }
 
@@ -305,7 +305,7 @@ p {
 .writing-item .caption {
   font-size: .75rem;
   font-weight: 500;
-  color: #2C5056;
+  color: #8FD2CE;
   display: block;
   width: 100%;
   margin-top: .5rem;
@@ -323,32 +323,32 @@ p {
 }
 
 .writing-item h2 a {
-  color: #2C5056;
+  color: #8FD2CE;
   text-decoration-color: transparent; 
   transition: text-decoration-color .3s ease-in-out;
   font-weight: 600;
 }
 
 .writing-item h4 a {
-  color: var(--body-color);
+  color: #8FD2CE;
   text-decoration-color: transparent; 
   transition: text-decoration-color .3s ease-in-out;
 }
 
 .writing-item h3 a {
-  color: var(--body-color);
+  color: #8FD2CE;
   text-decoration-color: transparent;
   transition: text-decoration-color .3s ease-in-out;
   font-weight: 400;
 }
 
 .writing-item h2 a:hover {
-  color: var(--body-color);
+  color: #2C5056;
   text-decoration-color: var(--body-color); 
 }
 
 .writing-item p a {
-  color: var(--body-color);
+  color: #2C5056;
   text-decoration-color: var(--body-color); 
 }
 
